@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendInvites"
+    android:background="@drawable/gradientbackground">
+
+    <EditText
+        android:id="@+id/agoraId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter Agora Id...."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignStart="@+id/agoraId"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="151dp"
+        android:ems="10"
+        android:hint="Enter Message....."
+        android:inputType="textPersonName"
+        android:gravity="top|left"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/agoraId"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginBottom="77dp"
+        android:ems="10"
+        android:hint="Date...."
+        android:clickable="true"
+        android:editable="false"
+        android:focusable="false"
+        android:longClickable="false"/>
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/date"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="34dp"
+        android:ems="10"
+        android:hint="Time...."
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="-59dp"
+        android:background="@drawable/buttonstyle"
+        android:onClick="sendInvite"
+        android:text="Send"
+        android:textColor="#fff" />
+
+</RelativeLayout>

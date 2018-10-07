@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "747705833274",
+    "firebase_url": "https://augmented-video-call.firebaseio.com",
+    "project_id": "augmented-video-call",
+    "storage_bucket": "augmented-video-call.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747705833274:android:bb51c0fe6faa96ed",
+        "android_client_info": {
+          "package_name": "com.example.anshulsharma.augmentedvideocalling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747705833274-jhvgkpaidkqee3rhcvls7vf94a30a2be.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_r40lvQBBWmq7Oplc2aK2nev7hAXAMxs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
